@@ -1,0 +1,85 @@
+
+body{
+    background-color: #F7ECDE;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1::before{
+    content: "";
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    z-index: -1;
+}
+
+h1::before:hover {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.borderstyle{
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+}
+
+h2{
+
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #3ca55c;
+}
+
+input{
+    
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+
+}
+
+input:focus{
+    border: 1px solid #d99c39;
+    outline: 0;
+    box-shadow: 0 0 0 3px #d99c39  ;
+}
+
+.my-btn{
+ background-color: #d1512d;
+}
+
+.my-btn:hover{
+    background-color: #bb4120;
+}
+
+.mybtn1{
+    color: white;
+    background-color: #9eb23b;
+}
+.mybtn1:hover{
+    color: white;
+    background-color: #6e8018;
+}
+
+.mybtn2{
+    color: white;
+    background-color: #eb1d36;
+}
+
+.mybtn2:hover{
+    color: white;
+    background-color: #D30820;
+}
