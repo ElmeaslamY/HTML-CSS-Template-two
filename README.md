@@ -1,2 +1,2 @@
-# HTML-CSS-Template-two
-HTML CSS design number two
+# HTML-AND-CSS-Template-two
+HTML and CSS design number two
